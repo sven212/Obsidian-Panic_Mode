@@ -1186,7 +1186,7 @@ background-color: var(--interactive-accent-hover);
 /***************************************/
 /* Hide side bar */
 /***************************************/
-.workspace-ribbon {
+/* .workspace-ribbon {
 z-index: 100;
 }
 
@@ -1200,7 +1200,7 @@ width: 0px;
 transition: all 300ms ease-in-out;}
 
 .workspace-split.mod-left-split {margin-left: 0px;}
-.workspace-split.mod-right-split {margin-right: 0px;}
+.workspace-split.mod-right-split {margin-right: 0px;} */
 
 
 
@@ -1898,8 +1898,9 @@ border-bottom: 2px dashed var(--text-faint);
 .markdown-embed-link::before,
 .markdown-embed-link::after {
 	content: ' ';
-	padding: 7px; 
+	padding: 7px;
 }
+
 .markdown-embed-link::before {
 	content: ' Edit original ';
 	padding-right: 0px;
